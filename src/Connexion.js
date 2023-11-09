@@ -45,7 +45,7 @@ function Connexion() {
                                   Mot de passe
                               </label>
 
-                              <a className='text-indigo-700 font-bold' href="#">
+                              <a className='text-indigo-700 font-bold' href="https://mon-projet-react.vercel.app/password">
                                   Mot de passe oublié?
                               </a>
                             
@@ -71,7 +71,7 @@ function Connexion() {
 
                       <div class="py-2">
 
-                          <a href="">
+                          <a href="#">
                               <button type="submit"
                                   class="w-full text-sm font-bold rounded-lg p-4 text-white bg-indigo-700">
                                       Connexion
@@ -84,7 +84,7 @@ function Connexion() {
                   <p className='text-center py-2'>
                     Vous n'avez pas un compte ? 
                     <span className='text-indigo-700 font-bold'>
-                      <a href=""> Créez un c'est gratuit !</a>
+                      <a href="https://mon-projet-react.vercel.app/compte"> Créez un c'est gratuit !</a>
                     </span>
                   </p>
 

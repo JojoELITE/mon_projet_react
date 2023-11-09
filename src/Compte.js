@@ -89,7 +89,7 @@ const Compte = () => {
                                     <p className='text-center py-2'>
                                         Vous avez déjà un compte?
                                             <span class="text-indigo-700 font-bold">
-                                                <a href="#"> Connectez-vous</a>
+                                                <a href="https://mon-projet-react.vercel.app/connexion"> Connectez-vous</a>
                                             </span>
                                     </p>
 

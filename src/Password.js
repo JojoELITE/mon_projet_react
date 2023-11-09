@@ -52,7 +52,7 @@ const Password = () => {
                             <p className='text-center py-2'>
                                     Je me souviens de mon mot de passe?
                                     <span class="text-indigo-700 font-bold">
-                                        <a href="#"> Connexion !</a>
+                                        <a href="https://mon-projet-react.vercel.app/connexion"> Connexion !</a>
                                     </span>
                                 </p>
 
