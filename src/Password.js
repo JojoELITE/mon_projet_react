@@ -3,7 +3,7 @@ import React from 'react';
 const Password = () => {
     return (
         <div>
-            <div class="flex">
+              <div class="flex h-[100vh]">
 
             <div class="w-1/2 p-16 mt-10">
 
@@ -27,11 +27,9 @@ const Password = () => {
                                         Email
                                     </label>
 
-                                    <div class="w-full rounded-lg p-4 bg-gray-100">
                                         <input id="email" name="email" type="email" autocomplete="email" require 
-                                        class="bg-gray-100 px-4"
+                                        class="bg-gray-100 px-4 w-full rounded-lg p-4 border border-gray-300 bg-gray-100"
                                         placeholder="saipul@gmail.com"/>
-                                    </div>
 
                                 </div>
              

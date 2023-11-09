@@ -4,7 +4,7 @@ function Réinitialiser() {
     return (
         <div className='Réinitialiser'>
 
-          <div class="flex ">
+          <div class="flex h-[100vh]">
 
             <div class="w-1/2 p-16 mt-10">
 
@@ -31,11 +31,9 @@ function Réinitialiser() {
                           </label>
                       
 
-                          <div class="w-full rounded-lg p-4 bg-gray-100">
                               <input id="password" name="password" type="password" autocomplete="current-password" required
-                              class="bg-gray-100 px-4"
+                              class="bg-gray-100 px-4 w-full rounded-lg p-4 border border-gray-300 bg-gray-100"
                               placeholder="************************"/>
-                          </div>
 
                       </div>   
                     
@@ -48,11 +46,9 @@ function Réinitialiser() {
                         </label>
                     
 
-                        <div class="w-full rounded-lg p-4 bg-gray-100">
                             <input id="password" name="password" type="password" autocomplete="current-password" required
-                              class="bg-gray-100 px-4"
+                              class="bg-gray-100 px-4 w-full rounded-lg p-4 border border-gray-300 bg-gray-100"
                               placeholder="************************"/>
-                        </div>
 
                       </div>  
 

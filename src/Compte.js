@@ -3,7 +3,7 @@ import React from 'react';
 const Compte = () => {
     return (
         <div>
-            <div class="flex">
+              <div class="flex h-[100vh]">
 
                 <form className='w-1/2 px-14 py-12'>
 
@@ -25,13 +25,13 @@ const Compte = () => {
                                 Nom complet
                             </label>
                             
-                            <input class="bg-gray-100 rounded py-4 px-8 text-sm mt-2"
-                                type="text" placeholder="Nom"/>
+                            <input class="rounded-lg py-4 px-8 text-sm mt-2 border border-gray-300 bg-gray-100"
+                            type="text" placeholder="Nom"/>
                         </div>
 
                         <div class="mt-6">
             
-                            <input class="bg-gray-100 rounded py-4 px-8 text-sm mt-2"
+                        <input class="rounded-lg py-4 px-8 text-sm mt-2 border border-gray-300 bg-gray-100"
                                  type="text" placeholder="Prénom"/>
                         </div>
                     </div>
@@ -43,11 +43,9 @@ const Compte = () => {
                                         Email
                                     </label>
 
-                                    <div class="w-full rounded-lg p-4 bg-gray-100">
                                         <input id="email" name="email" type="email" autocomplete="email" require 
-                                        class="bg-gray-100 px-4"
+                                        class="bg-gray-100 px-4 w-full rounded-lg p-4 border border-gray-300 bg-gray-100"
                                         placeholder="aurelius@rocketmail.com"/>
-                                    </div>
 
                                 </div>
 
@@ -58,11 +56,9 @@ const Compte = () => {
                               </label>
                             
                            
-                          <div class="w-full rounded-lg p-4 bg-gray-100">
                               <input id="password" name="password" type="password" autocomplete="current-password" required
-                              class="bg-gray-100 px-4"
+                              class="bg-gray-100 px-4 w-full rounded-lg p-4 border border-gray-300 bg-gray-100"
                               placeholder="************************"/>
-                          </div>
 
                       </div>
 
