@@ -1,4 +1,3 @@
-import Header from './components/Header';
 import Connexion from './Connexion';
 import Password from './Password';
 import Compte from './Compte';
@@ -12,7 +11,6 @@ function App() {
 
       <BrowserRouter>
 
-      <Header/>
           <Routes>
 
               <Route index element={<Connexion/>}/>

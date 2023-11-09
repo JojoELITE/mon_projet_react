@@ -38,7 +38,7 @@ const Password = () => {
   
                                <div class="py-4">
 
-                                    <a href="">
+                                    <a href="https://mon-projet-react.vercel.app/réinitialiser">
                                         <button type="submit"
                                             class="w-full text-sm font-bold rounded-lg p-4 text-white bg-indigo-700">
                                                 Confirmer
