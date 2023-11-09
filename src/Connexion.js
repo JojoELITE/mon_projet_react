@@ -6,21 +6,21 @@ function Connexion() {
 
               <div class="flex">
 
-                <div className='w-1/2 px-10 py-12'>
+                <div className='w-1/2 px-14 py-12'>
 
-                  <p className='bg-gray-100 text-sm text-indigo-700 font-bold rounded-lg px-3 py-4 w-[52px] h-[50px]'>
+                  <p className='bg-gray-100 text-sm text-indigo-700 font-bold rounded-lg px-3 py-5 w-[52px] h-[60px]'>
                     E241
                   </p>
 
-                  <h1 class="font-bold py-10">
+                  <h1 class="font-bold mt-10 text-2xl">
                     Connexion
                   </h1>
 
-                  <p>
+                  <p className='py-2'>
                     Saisissez votre email et votre mot de passe pour avoir <br></br>accès au Dashboard
                   </p>
 
-                  <form>
+                  <form className='py-6'>
                     
                       <div>
 
@@ -36,7 +36,7 @@ function Connexion() {
 
                       </div>
 
-                      <div class=""> 
+                      <div class="py-4"> 
 
                           <div className='flex justify-between'>
 
@@ -54,7 +54,7 @@ function Connexion() {
                               <input id="password" name="password" type="password" autocomplete="current-password" required
                               class="bg-gray-100"
                               placeholder="************************"/>
-                        </div>
+                          </div>
 
                       </div>
 
@@ -80,14 +80,15 @@ function Connexion() {
 
                   </form>
 
-                  <p>
-                    Vous n'avez pas un compte ?
+                  <p className='text-center py-2'>
+                    Vous n'avez pas un compte ? 
                     <span className='text-indigo-700 font-bold'>
-                       Créez un c'est gratuit !
+                      Créez un c'est gratuit !
                     </span>
                   </p>
 
                 </div>
+
 
 
                 <div class="w-1/2 bg-indigo-700">
