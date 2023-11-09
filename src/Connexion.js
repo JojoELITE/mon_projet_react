@@ -4,109 +4,108 @@ function Connexion() {
     return (
         <div className='Connexion'>
 
-           <section class="flex justify-between">
+              <div class="flex">
 
-              <div class="p-16">
+                <div className='w-1/2 px-10 py-12'>
 
-                  <h1 class="font-bold text-2xl">
+                  <p className='bg-gray-100 text-sm text-indigo-700 font-bold rounded-lg px-3 py-4 w-[52px] h-[50px]'>
+                    E241
+                  </p>
+
+                  <h1 class="font-bold py-10">
                     Connexion
                   </h1>
 
-                  <h6 class="py-2 text-sm">
-                    Saisissez votre mot de passe pour avoir <br></br>accès au Dashboard
-                  </h6>
+                  <p>
+                    Saisissez votre email et votre mot de passe pour avoir <br></br>accès au Dashboard
+                  </p>
 
-                  <div class="bg-white">
-                      <from class="" action="#" method="POST">
+                  <form>
+                    
+                      <div>
 
-                        <div class="py-4">
-                          <label for="email" class="block text-sm font-bold text-gray-700">
-                            Email
+                          <label for="email" class="text-sm font-bold">
+                              Email
                           </label>
 
-                          <div class="mt-1">
-                            <input id="email" name="email" type="email" autocomplete="email" required
-                              class="appearance-none rounded-md relative block w-full px-8 py-2 placeholder-gray-500 bg-gray-200 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                          <div class="w-full rounded-lg p-4 bg-gray-100">
+                              <input id="email" name="email" type="email" autocomplete="email" require 
+                              class="bg-gray-100"
                               placeholder="saipul@gmail.com"/>
                           </div>
-                        </div>
-
-                        <div class="py-2"> 
-
-                          <div class="flex justify-between">
-                            <div>
-
-                              <label for="password" class="block text-sm font-bold text-gray-700">
-                                Mot de passe
-                              </label>
-
-                            </div>
-                      
-
-                            <div class="text-sm">
-                                <a href="#" class="font-bold text-indigo-700">
-                                  Mot de passe oublié?
-                                </a>
-                            </div>
-
-                          </div>
-                
-
-                          <div class="mt-1">
-                              <input id="password" name="password" type="password" autocomplete="current-password" required
-                                class="appearance-none rounded-md relative block w-full px-8 py-2 placeholder-gray-500 bg-gray-200 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                                placeholder="************************"/>
-                          </div>
-
-                        </div>
-
-             
-                        <div class="flex items-center py-2">
-                              <input id="remember_me" name="remember_me" type="checkbox"
-                                class="h-4 w-4 focus:ring-indigo-500 border-gray-300 rounded"/>
-                              <label for="remember_me" class="ml-2 block text-sm font-bold">
-                                Se souvenir de moi
-                              </label>
-                        </div>
-
-                        <div class="py-2">
-                            <button type="submit"
-                                class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-700 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                                  Connexion
-                            </button>
-                        </div>
-                      </from>
-
-                      <div class="mt-6">
-
-                          <p class="text-sm">
-                              Vous n'avez pas un compte?
-                                <span class="text-indigo-700 font-bold">
-                                  <a href="#">Créez un c'est gratuit !</a>
-                                </span>
-                          </p>
 
                       </div>
-                  </div>
-              
-            </div>
+
+                      <div class=""> 
+
+                          <div className='flex justify-between'>
+
+                              <label for="password" class="text-sm font-bold">
+                                  Mot de passe
+                              </label>
+
+                              <a className='text-indigo-700 font-bold' href="#">
+                                  Mot de passe oublié?
+                              </a>
+                            
+                          </div>
+                           
+                          <div class="w-full rounded-lg p-4 bg-gray-100">
+                              <input id="password" name="password" type="password" autocomplete="current-password" required
+                              class="bg-gray-100"
+                              placeholder="************************"/>
+                        </div>
+
+                      </div>
+
+                      <div class="flex items-center py-2 gap-2">
+
+                              <input id="remember_me" name="remember_me" type="checkbox"
+                                class="h-4 w-4 focus:ring-indigo-500 border-gray-300 rounded"/>
+
+                              <label for="remember_me" class="text-sm font-bold">
+                                Se souvenir de moi
+                              </label>
+                      </div>
+
+                      <div class="py-2">
+
+                          <a href="">
+                              <button type="submit"
+                                  class="w-full text-sm font-bold rounded-lg p-4 text-white bg-indigo-700">
+                                      Connexion
+                              </button>
+                          </a>
+                      </div>
+
+                  </form>
+
+                  <p>
+                    Vous n'avez pas un compte ?
+                    <span className='text-indigo-700 font-bold'>
+                       Créez un c'est gratuit !
+                    </span>
+                  </p>
+
+                </div>
 
 
-            <div class="bg-indigo-800 py- mt-10 w-[28%]">
+                <div class="w-1/2 bg-indigo-700">
 
-                <img class="mt-20" src="group_9__1_.png" alt="image"/>
+                  <img src="" alt=""/>
 
-                <p class="px-16 mt-16 text-gray-400 text-sm">
+                  <h1 className="px-10 text-gray-400">
                     ECOLE241 BUSINESS
-                </p>
+                  </h1>
 
-                <h1 class="px-16 text-white text-sm">
+                  <p class="px-10 text-white font-semibold text-2xl">
                     Etudier en ligne devient plus facile - <br></br>vous pouvez toujours étudier avec Ecole <br></br>241 Business
-                </h1>
-
-            </div>
-
-          </section>
+                  </p>
+                
+                  
+                </div>
+                
+              </div>
 
         </div>
     );
