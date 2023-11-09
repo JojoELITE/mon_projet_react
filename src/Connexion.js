@@ -84,7 +84,7 @@ function Connexion() {
                   <p className='text-center py-2'>
                     Vous n'avez pas un compte ? 
                     <span className='text-indigo-700 font-bold'>
-                      Créez un c'est gratuit !
+                      <a href=""> Créez un c'est gratuit !</a>
                     </span>
                   </p>
 

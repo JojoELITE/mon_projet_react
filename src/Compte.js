@@ -3,118 +3,118 @@ import React from 'react';
 const Compte = () => {
     return (
         <div>
-            <div class="flex justify-between">
+            <div class="flex">
 
-<form class="p-14">
+                <form className='w-1/2 px-14 py-12'>
 
-    <h1 class="bg-gray-100 rounded-lg text-indigo-700">
-        E241
-    </h1>
+                    <p className='bg-gray-100 text-sm text-indigo-700 font-bold rounded-lg px-3 py-5 w-[52px] h-[60px]'>
+                        E241
+                    </p>
 
-    <h1 class="font-bold text-2xl ">
-        Créer un compte 
-    </h1>
+                    <h1 class="font-bold mt-10 text-2xl">
+                        Créer un compte 
+                    </h1>
 
-    <h6 class="py-2 text-sm">
-        Ce n'est pas difficile, il suffit de saisir quelques données
-    </h6>
+                    <p className='py-2'>
+                        Ce n'est pas difficile, il suffit de saisir quelques données
+                    </p>
 
-    <div class="flex gap-10 py-4">
-        <div class="">
-            <label class="text-gray-700 text-sm font-bold mb-2"
-                for="grid-first-name">
-                Nom complet
-            </label>
-            <input
-                class="block bg-gray-200 rounded py-2 px-8 text-sm mt-2"
-                id="grid-first-name" type="text" placeholder="Nom"/>
-        </div>
-        <div class="mt-6">
-            <input
-                class="block bg-gray-200 rounded py-2 px-8 text-sm mt-2"
-                id="grid-last-name" type="text" placeholder="Prénom"/>
-        </div>
-    </div>
+                    <div class="flex gap-10 py-4">
+                        <div class="">
+                            <label for="name" class="text-sm font-bold">
+                                Nom complet
+                            </label>
+                            
+                            <input class="bg-gray-100 rounded py-4 px-8 text-sm mt-2"
+                                type="text" placeholder="Nom"/>
+                        </div>
+
+                        <div class="mt-6">
+            
+                            <input class="bg-gray-100 rounded py-4 px-8 text-sm mt-2"
+                                 type="text" placeholder="Prénom"/>
+                        </div>
+                    </div>
 
 
-    <div class="py-4">
-        <div class="w-full ">
-            <label class="text-gray-700 text-sm font-bold"
-                for="grid-password">
-                Email
-            </label>
-            <input
-                class="appearance-none block w-full bg-gray-200 border border-gray-200 rounded py-2 px-8"
-                id="grid-email" type="email" placeholder="aurelius@rocktmail.com"/>
-        </div>
-    </div>
+                                <div class="py-6"> 
 
-    <div class="py-2"> 
+                                    <label for="email" class="text-sm font-bold">
+                                        Email
+                                    </label>
 
-          <div>
+                                    <div class="w-full rounded-lg p-4 bg-gray-100">
+                                        <input id="email" name="email" type="email" autocomplete="email" require 
+                                        class="bg-gray-100 px-4"
+                                        placeholder="aurelius@rocketmail.com"/>
+                                    </div>
 
-            <label for="password" class="block text-sm font-bold text-gray-700">
-                Mot de passe
-            </label>
+                                </div>
 
-          </div>          
+                      <div class="py-4"> 
+                      
+                              <label for="password" class="text-sm font-bold">
+                                  Mot de passe
+                              </label>
+                            
+                           
+                          <div class="w-full rounded-lg p-4 bg-gray-100">
+                              <input id="password" name="password" type="password" autocomplete="current-password" required
+                              class="bg-gray-100 px-4"
+                              placeholder="************************"/>
+                          </div>
 
-        <div class="mt-1">
-            <input id="password" name="password" type="password" autocomplete="current-password" required
-                class="rounded-md relative block w-full px-8 py-2 placeholder-gray-500 bg-gray-200"
-                placeholder="************************"/>
-        </div>
+                      </div>
 
-    </div>
-
-    <div class="py-4 text-sm">
-        <p>
-            En vous inscrivant, vous acceptez les conditions d'utilisation et la <br></br>politique de confidentialité de Namanyajugabelajar.io
-        </p>
-    </div>
-
-    
-    <div class="py-2">
-        <button type="submit"
-            class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-700 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-              S'inscrire
-        </button>
-    </div>
+                        <div class="py-4 text-sm">
+                             <p>
+                                 En vous inscrivant, vous acceptez les conditions d'utilisation et la <br></br>politique de confidentialité de Namanyajugabelajar.io
+                            </p>
+                        </div>
 
     
-    <div class="mt-6">
+                                <div class="py-4">
 
-        <p class="text-sm">
-          Vous avez déjà un compte?
-          <span class="text-indigo-700 font-bold">
-            <a href="#">Connectez-vous</a>
-          </span>
-        </p>
+                                    <a href="">
+                                        <button type="submit"
+                                            class="w-full text-sm font-bold rounded-lg p-4 text-white bg-indigo-700">
+                                                S'inscrire
+                                        </button>
+                                    </a>
+                                </div>
 
-      </div>
+    
+                                <div class="mt-6">
 
-</form>
+                                    <p className='text-center py-2'>
+                                        Vous avez déjà un compte?
+                                            <span class="text-indigo-700 font-bold">
+                                                <a href="#"> Connectez-vous</a>
+                                            </span>
+                                    </p>
 
+                                </div>
 
-
-<div class="bg-indigo-800 w-[28%]">
-
-    <img class="mt-32 px-12" src="group_9.png" alt="image"/>
-
-    <p class="px-16 mt-24 text-gray-400 text-sm">
-      ECOLE241 BUSINESS
-    </p>
-
-    <h1 class="px-16 text-white text-sm">
-      Etudier en ligne devient plus facile - <br></br>vous pouvez toujours étudier avec Ecole <br></br>241 Business
-    </h1>
-
-  </div>
+                </form>
 
 
 
+                <div class="w-1/2 bg-indigo-700">
 
-</div>
+                  <img class="mt-48" src="image3.png" alt="image"/>
+
+
+
+                  <h1 className="px-10 mt-6 text-gray-400">
+                    ECOLE241 BUSINESS
+                  </h1>
+
+                  <p class="px-10 text-white font-semibold text-2xl">
+                    Etudier en ligne devient plus facile - <br></br>vous pouvez toujours étudier avec Ecole <br></br>241 Business
+                  </p>
+                               
+                </div>
+            </div>
         </div>
     );
 }
