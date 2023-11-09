@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Connexion() {
     return (
         <div className='Connexion'>
@@ -30,7 +31,7 @@ function Connexion() {
 
                           <div class="w-full rounded-lg p-4 bg-gray-100">
                               <input id="email" name="email" type="email" autocomplete="email" require 
-                              class="bg-gray-100"
+                              class="bg-gray-100 px-4"
                               placeholder="saipul@gmail.com"/>
                           </div>
 
@@ -52,7 +53,7 @@ function Connexion() {
                            
                           <div class="w-full rounded-lg p-4 bg-gray-100">
                               <input id="password" name="password" type="password" autocomplete="current-password" required
-                              class="bg-gray-100"
+                              class="bg-gray-100 px-4"
                               placeholder="************************"/>
                           </div>
 
@@ -93,13 +94,15 @@ function Connexion() {
 
                 <div class="w-1/2 bg-indigo-700">
 
-                  <img src="" alt=""/>
+                  <img class="py-20" src="image1.png" alt="image"/>
 
-                  <h1 className="px-10 text-gray-400">
+
+
+                  <h1 className="px-24 text-gray-400">
                     ECOLE241 BUSINESS
                   </h1>
 
-                  <p class="px-10 text-white font-semibold text-2xl">
+                  <p class="px-24 text-white font-semibold text-2xl">
                     Etudier en ligne devient plus facile - <br></br>vous pouvez toujours étudier avec Ecole <br></br>241 Business
                   </p>
                 
