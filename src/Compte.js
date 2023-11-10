@@ -5,13 +5,13 @@ const Compte = () => {
         <div>
               <div class="flex h-[100vh]">
 
-                <form className='w-1/2 px-14 py-12'>
+                <form className='w-1/2 px-14 py-6 lg:w-1/2 w-full'>
 
                     <p className='bg-gray-100 text-sm text-indigo-700 font-bold rounded-lg px-3 py-5 w-[52px] h-[60px]'>
                         E241
                     </p>
 
-                    <h1 class="font-bold mt-10 text-2xl">
+                    <h1 class="font-bold mt-8 text-2xl">
                         Créer un compte 
                     </h1>
 
@@ -19,37 +19,51 @@ const Compte = () => {
                         Ce n'est pas difficile, il suffit de saisir quelques données
                     </p>
 
-                    <div class="flex gap-10 py-4">
-                        <div class="">
-                            <label for="name" class="text-sm font-bold">
-                                Nom complet
-                            </label>
-                            
-                            <input class="rounded-lg py-4 px-8 text-sm mt-2 border border-gray-300 bg-gray-100"
-                            type="text" placeholder="Nom"/>
-                        </div>
+                    <div class="py-2">
 
-                        <div class="mt-6">
-            
-                        <input class="rounded-lg py-4 px-8 text-sm mt-2 border border-gray-300 bg-gray-100"
-                                 type="text" placeholder="Prénom"/>
-                        </div>
+                        <label for="name" class="text-sm font-bold">
+                                Nom complet
+                        </label>
+
+
+                        <div class="flex ">
+                            
+
+                            <div>
+
+                                <input class="rounded-lg py-4 w-5/6 px-8 text-sm mt-2 border border-gray-300 bg-gray-100"
+                                type="text" placeholder="Nom"/>
+                                
+                            </div>
+
+
+                            <div className=''>
+
+                                <input class="rounded-lg py-4 w-5/6 px-8 text-sm mt-2 border border-gray-300 bg-gray-100"
+                                type="text" placeholder="Prénom"/>
+                                
+                            </div>
+                            
+
+                        </div> 
+
+
                     </div>
 
 
-                                <div class="py-6"> 
+                        <div class="py-2"> 
 
                                     <label for="email" class="text-sm font-bold">
                                         Email
                                     </label>
 
                                         <input id="email" name="email" type="email" autocomplete="email" require 
-                                        class="bg-gray-100 px-4 w-full rounded-lg p-4 border border-gray-300 bg-gray-100"
+                                        class="bg-gray-100 px-8 w-full rounded-lg p-4 border border-gray-300 bg-gray-100"
                                         placeholder="aurelius@rocketmail.com"/>
 
-                                </div>
+                        </div>
 
-                      <div class="py-4"> 
+                      <div class="py-2"> 
                       
                               <label for="password" class="text-sm font-bold">
                                   Mot de passe
@@ -57,30 +71,41 @@ const Compte = () => {
                             
                            
                               <input id="password" name="password" type="password" autocomplete="current-password" required
-                              class="bg-gray-100 px-4 w-full rounded-lg p-4 border border-gray-300 bg-gray-100"
+                              class="bg-gray-100 px-8 w-full rounded-lg p-4 border border-gray-300 bg-gray-100"
                               placeholder="************************"/>
 
                       </div>
 
-                        <div class="py-4 text-sm">
-                             <p>
+                        <div class="py-2 text-sm lg:block hidden">
+                             <p >
                                  En vous inscrivant, vous acceptez les conditions d'utilisation et la <br></br>politique de confidentialité de Namanyajugabelajar.io
                             </p>
+
+                        </div>
+
+                        <div class="py-2 text-sm sm:block lg:hidden">
+                             <p >
+                                 En vous inscrivant, vous acceptez les conditions d'utilisation et la politique de confidentialité de Namanyajugabelajar.io
+                            </p>
+
                         </div>
 
     
-                                <div class="py-4">
+                                <div class="py-2">
 
-                                    <a href="">
                                         <button type="submit"
                                             class="w-full text-sm font-bold rounded-lg p-4 text-white bg-indigo-700">
-                                                S'inscrire
-                                        </button>
-                                    </a>
-                                </div>
+                                                <a href="https://mon-projet-react.vercel.app/dashboard">
 
+                                                    S'inscrire
+
+                                                </a>                             
+                                        </button>
+
+
+                                </div>
     
-                                <div class="mt-6">
+                                <div class="">
 
                                     <p className='text-center py-2'>
                                         Vous avez déjà un compte?
@@ -95,13 +120,13 @@ const Compte = () => {
 
 
 
-                <div class="w-1/2 bg-indigo-700">
+                <div class="w-1/2 bg-indigo-700 lg:block md:hidden hidden">
 
-                  <img class="mt-48" src="image3.png" alt="image"/>
+                  <img class="items-center py-24" src="image3.png" alt="image"/>
 
 
 
-                  <h1 className="px-10 mt-6 text-gray-400">
+                  <h1 className="px-10 text-gray-400">
                     ECOLE241 BUSINESS
                   </h1>
 

@@ -7,7 +7,7 @@ function Connexion() {
 
               <div class="flex h-[100vh]">
 
-                <div className='w-1/2 px-14 py-12'>
+                <div className='w-1/2 px-14 py-12 lg:w-1/2 w-full'>
 
                   <p className='bg-gray-100 text-sm text-indigo-700 font-bold rounded-lg px-3 py-5 w-[52px] h-[60px]'>
                     E241
@@ -28,6 +28,8 @@ function Connexion() {
                           <label for="email" class="text-sm font-bold">
                               Email
                           </label>
+
+
 
                               <input id="email" name="email" type="email"
                               class="bg-gray-100 px-4 w-full rounded-lg p-4 border border-gray-300 bg-gray-100"
@@ -50,7 +52,7 @@ function Connexion() {
                           </div>
                            
                               <input id="password" name="password" type="password"
-                              class="bg-gray-100 px-4 w-full rounded-lg p-4 border border-gray-300 bg-gray-100"
+                              class="bg-gray-100 px-4 w-full rounded-lg p-4 border border-gray-300 bg-gray-10"
                               placeholder="************************"/>
 
                       </div>
@@ -58,7 +60,7 @@ function Connexion() {
                       <div class="flex items-center py-2 gap-2">
 
                               <input id="remember_me" name="remember_me" type="checkbox"
-                                class="h-4 w-4 focus:ring-indigo-500 border-gray-300 rounded"/>
+                                class="h-4 w-4  border border-gray-300 rounded "/>
 
                               <label for="remember_me" class="text-sm font-bold">
                                 Se souvenir de moi
@@ -67,13 +69,18 @@ function Connexion() {
 
                       <div class="py-2">
 
-                          <a href="#">
+                          
                               <button type="submit"
                                   class="w-full text-sm font-bold rounded-lg p-4 text-white bg-indigo-700">
-                                      Connexion
+                                      <a href="https://mon-projet-react.vercel.app/dashboard">
+
+                                          Connexion
+
+                                      </a>
                               </button>
-                          </a>
+                         
                       </div>
+
 
                   </form>
 
@@ -88,13 +95,12 @@ function Connexion() {
 
 
 
-                <div class="w-1/2 bg-indigo-700">
 
-                  <img class="py-20" src="image1.png" alt="image"/>
+                <div class="w-1/2 bg-indigo-700 lg:block md:hidden hidden">
 
+                  <img class="items-center mt-24" src="image1.png" alt="image"/>
 
-
-                  <h1 className="px-24 text-gray-400">
+                  <h1 className="px-24 text-gray-400 mt-10">
                     ECOLE241 BUSINESS
                   </h1>
 
@@ -106,7 +112,6 @@ function Connexion() {
                 </div>
                 
               </div>
-
         </div>
     );
 }

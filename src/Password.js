@@ -5,7 +5,7 @@ const Password = () => {
         <div>
               <div class="flex h-[100vh]">
 
-            <div class="w-1/2 p-16 mt-10">
+            <div class="w-1/2 p-16 mt-10 lg:w-1/2 w-full">
 
                     <p className='bg-gray-100 text-sm text-indigo-700 font-bold rounded-lg px-3 py-5 w-[52px] h-[60px]'>
                         E241
@@ -15,8 +15,12 @@ const Password = () => {
                         Mot de passe oublié
                     </h1>
 
-                    <p className='py-2'>
+                    <p className='py-2 lg:block md:block hidden'>
                         Saisissez votre email pour récuperer votre mot de passe, <br></br>vous allez recevoir une email confirmer la demande de <br></br>réinitialisation.
+                    </p>
+
+                    <p className='py-2 sm:block lg:hidden'>
+                        Saisissez votre email pour récuperer votre mot de passe,vous allez recevoir une email confirmer la demande de réinitialisation.
                     </p>
   
                     <div class="">
@@ -36,18 +40,21 @@ const Password = () => {
   
                                <div class="py-4">
 
-                                    <a href="https://mon-projet-react.vercel.app/réinitialiser">
                                         <button type="submit"
                                             class="w-full text-sm font-bold rounded-lg p-4 text-white bg-indigo-700">
-                                                Confirmer
+                                                <a href="https://mon-projet-react.vercel.app/réinitialiser">
+
+                                                    Confirmer
+
+                                                </a>   
                                         </button>
-                                    </a>
+                                    
                                 </div>
                             </form>
 
                             <div class="mt-6">
 
-                            <p className='text-center py-2'>
+                                <p className='text-center py-2'>
                                     Je me souviens de mon mot de passe?
                                     <span class="text-indigo-700 font-bold">
                                         <a href="https://mon-projet-react.vercel.app/connexion"> Connexion !</a>
@@ -58,10 +65,10 @@ const Password = () => {
                     </div>
                 </div>
 
-                <div class="w-1/2 bg-indigo-700">
+
+                <div class="w-1/2 bg-indigo-700 lg:block md:hidden hidden">
 
                   <img class="py-20" src="image2.png" alt="image"/>
-
 
 
                   <h1 className="px-10 text-gray-400">

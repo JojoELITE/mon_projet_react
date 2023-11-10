@@ -6,7 +6,7 @@ function Réinitialiser() {
 
           <div class="flex h-[100vh]">
 
-            <div class="w-1/2 p-16 mt-10">
+            <div class="w-1/2 p-16 mt-10 lg:w-1/2 w-full">
 
               <p className='bg-gray-100 text-sm text-indigo-700 font-bold rounded-lg px-3 py-5 w-[52px] h-[60px]'>
                   E241
@@ -16,8 +16,12 @@ function Réinitialiser() {
                   Réinitialisation de mot de passe
               </h1>
               
-              <p className='py-2'>
+              <p className='py-2 lg:block hidden'>
                 N'utilisez pas de mot de passe difficile à utiliser, ce serait <br></br>un problème pour les gens.
+              </p>
+
+              <p className='py-2 sm:block lg:hidden'>
+                N'utilisez pas de mot de passe difficile à utiliser, ce serait un problème pour les gens.
               </p>
   
               <div class="">
@@ -55,12 +59,15 @@ function Réinitialiser() {
   
                        <div class="py-2">
 
-                          <a href="">
                               <button type="submit"
                                   class="w-full text-sm font-bold rounded-lg p-4 text-white bg-indigo-700">
-                                      Confirmer la réinitialisation
+                                       <a href="https://mon-projet-react.vercel.app/dashboard">
+
+                                                    Confirmer la réinitialisation
+
+                                                </a> 
                               </button>
-                          </a>
+                       
                       </div>
 
 
@@ -69,9 +76,9 @@ function Réinitialiser() {
             </div>
 
 
-                <div class="w-1/2 bg-indigo-700">
+                <div class="w-1/2 bg-indigo-700 lg:block md:hidden hidden">
 
-                  <img class="py-20" src="image4.png" alt="image"/>
+                  <img class="items-center py-20" src="image4.png" alt="image"/>
 
 
 
